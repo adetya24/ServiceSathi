@@ -234,7 +234,7 @@ import { getAuth } from "firebase/auth"
 import { getStorage } from "firebase/storage"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDevR5cnfIeXarRwZCA5_9jJAlDk9Gujp8",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "servicesarthi-5f25a.firebaseapp.com",
   projectId: "servicesarthi-5f25a",
   storageBucket: "servicesarthi-5f25a.firebasestorage.app",

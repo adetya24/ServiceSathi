@@ -25,3 +25,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+VITE_FIREBASE_API_KEY=AIzaSyDevR5cnfIeXarRwZCA5_9jJAlDk9Gujp8
+
